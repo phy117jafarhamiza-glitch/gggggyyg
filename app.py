@@ -11,8 +11,7 @@ st.set_page_config(page_title="منصة الامتحانات", layout="centered"
 st.title("نظام توليد الأسئلة الامتحانية (4 خيارات - قالب مفصول)")
 
 # تأكد من وضع اسم القالب الصحيح هنا
-TEMPLATE_FILE = 'نموذج  اسئلة امتحان مشترك 2026.docx' 
-
+TEMPLATE_FILE = 'template.docx'
 # --- دالة المحاذاة ---
 def force_rtl(paragraph):
     """تجبر الفقرة على المحاذاة لليمين"""
